@@ -1,0 +1,43 @@
+{
+  "name": "logger-template",
+  "version": "1.0.1",
+  "description": "An abstract template meant as a base for any logging tool",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/src"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adonisv79/logger-template.git"
+  },
+  "keywords": [
+    "logger",
+    "template"
+  ],
+  "author": "Adonis Lee Villamor (adonisv79@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adonisv79/logger-template/issues"
+  },
+  "homepage": "https://github.com/adonisv79/logger-template#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "13.9.5",
+    "@typescript-eslint/eslint-plugin": "2.25.0",
+    "@typescript-eslint/parser": "2.25.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.1.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "3.0.0",
+    "jest": "^26.0.1",
+    "snyk": "1.305.1",
+    "ts-jest": "^25.5.0",
+    "typescript": "3.8.3"
+  }
+}
